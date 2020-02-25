@@ -1,0 +1,107 @@
+body {
+	/*background: #eee;*/
+	font-family: 'Fira Sans', sans-serif;
+
+
+}
+img {
+	max-width: 100%;
+}
+.sub-title {
+	margin-top: 60px;
+
+	clear: both;
+}
+.profile-img {
+	text-align: center;
+}
+.profile-box {
+	margin-top: 40px;
+	
+}
+.profile-img  img {
+	width:150px;
+	border-radius: 50%;
+	border:2px solid #eee;
+	padding: 5px;
+}
+
+.profile-box h4 {
+	margin: 10px;
+	font-size: 30px;
+	font-weight: bold;
+	color:green;
+}
+
+.profile-box p span {
+	font-style: italic;
+	font-weight: bold;
+}
+.page-container {
+	margin:0 auto;
+	max-width: 1140px;
+}
+
+.course-list {
+	padding-left: 0;
+}
+
+.course-list li {
+	margin-bottom: 3px;	
+	list-style-type: none;
+	background: #eee;
+	padding:10px;
+	border:1px solid #eee;
+}
+
+.course-list li:hover {
+	border-color:green;
+}
+
+.course-list li a {
+	text-decoration: none;
+	color: #000;
+
+}
+.course-list li a span {
+	font-weight: bold;
+}
+
+.box {
+	width: calc(33% - 20px);
+	margin:10px;
+	margin-bottom:10px;
+	border:1px solid #eee;
+	padding:10px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.box:hover {
+	border-color:green;
+}
+.box-img img {
+width:100%;
+}
+.box-title h5 {
+	background: #eee;
+	padding:10px;
+	margin:0;
+	font-size: 18px;
+}
+
+.imdb-logo {
+  font: 1em/1 Impact, HelveticaNeue-CondensedBold, sans-serif;
+  color: #000;
+  text-shadow: 0 0 0.15em #fff;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: bottom;
+  padding: 0.25em 0.35em;
+  border-radius: 0.15em; 
+  background: radial-gradient(#ffffb8, #ce981d);
+}
+.imdb-logo:hover {
+  background: radial-gradient(#ffffeb, #e3b03b);
+}
+
+
