@@ -17,6 +17,7 @@
     <li><a href="./BeerSelect"><span>BeerSelect</span></a></li>
     <li><a href="./resources/html/calc.html"><span>Calculator</span></a></li>
     <li><a href="./calc2"><span>Calculator 2</span></a></li>
+    <li><a href="./quiz"><span>Quiz</span></a></li>
   </ul>
   </body>
 </html>

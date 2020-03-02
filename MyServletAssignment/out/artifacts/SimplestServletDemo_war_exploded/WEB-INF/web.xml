@@ -19,6 +19,10 @@
         <servlet-name>Calculator</servlet-name>
         <servlet-class>mum.cs472.calc.CalculatorServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Quiz</servlet-name>
+        <servlet-class>mum.cs472.Quiz.QuizServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>SimplestServlet</servlet-name>
         <url-pattern>/SimplestServlet</url-pattern>
@@ -34,5 +38,9 @@
     <servlet-mapping>
         <servlet-name>Calculator</servlet-name>
         <url-pattern>/calc</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Quiz</servlet-name>
+        <url-pattern>/quiz</url-pattern>
     </servlet-mapping>
 </web-app>
