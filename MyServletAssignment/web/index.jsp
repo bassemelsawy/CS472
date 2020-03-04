@@ -22,6 +22,8 @@
     <li><a href="./ChooseServlet"  target="_blank"><span>Choose Servlet</span></a></li>
     <li><a href="./JSPIntroServlet"  target="_blank"><span>JSPIntroServlet</span></a></li>
     <li><a href="./QuizServlet2"  target="_blank"><span>Quiz Servlet 2</span></a></li>
+    <li><a href="./resources/jsp/label.jsp"  target="_blank"><span>Custom Tag</span></a></li>
+    <li><a href="./resources/jsp/JTSLExample.jsp"  target="_blank"><span>JSTL Example</span></a></li>
 
   </ul>
   </body>
