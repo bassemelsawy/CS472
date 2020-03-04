@@ -13,15 +13,15 @@
   </head>
   <body>
   <ul>
-    <li><a href="./SimplestServlet"><span>Simple Servlet</span></a></li>
-    <li><a href="./HelloWorld"><span>Hello world</span></a></li>
-    <li><a href="./BeerSelect"><span>BeerSelect</span></a></li>
-    <li><a href="./resources/html/calc.html"><span>Calculator</span></a></li>
-    <li><a href="./calc2"><span>Calculator 2</span></a></li>
-    <li><a href="./quiz"><span>Quiz</span></a></li>
-    <li><a href="./ChooseServlet"><span>Choose Servlet</span></a></li>
-    <li><a href="./JSPIntroServlet"><span>JSPIntroServlet</span></a></li>
-    <li><a href="./resources/jsp/quiz.jsp"><span>Quiz JSP</span></a></li>
+    <li><a href="./SimplestServlet"  target="_blank"><span>Simple Servlet</span></a></li>
+    <li><a href="./HelloWorld"  target="_blank"><span>Hello world</span></a></li>
+    <li><a href="./BeerSelect"  target="_blank"><span>BeerSelect</span></a></li>
+    <li><a href="./resources/html/calc.html"  target="_blank"><span>Calculator</span></a></li>
+    <li><a href="./calc2"  target="_blank"><span>Calculator 2</span></a></li>
+    <li><a href="./quiz"  target="_blank"><span>Quiz</span></a></li>
+    <li><a href="./ChooseServlet"  target="_blank"><span>Choose Servlet</span></a></li>
+    <li><a href="./JSPIntroServlet"  target="_blank"><span>JSPIntroServlet</span></a></li>
+    <li><a href="./QuizServlet2"  target="_blank"><span>Quiz Servlet 2</span></a></li>
 
   </ul>
   </body>

@@ -15,7 +15,7 @@
     <input type='submit' name='btnSubmit' value='Submit'/>
     <p>Is the moon made of cheese?</p>
     <input type='radio' value='1' name='moonCheese' ${moonCheese}><span>Yes</span><br/>
-    <input type='radio' value='0' name='moonCheese'${NotJSFwayCool}><span>No</span><br/>
+    <input type='radio' value='0' name='moonCheese'${NoMoonCheese}><span>No</span><br/>
     <input type='submit' name='btnSubmit' value='Submit'/>
 </form>
 </body>

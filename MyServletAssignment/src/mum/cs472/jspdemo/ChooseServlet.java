@@ -42,7 +42,7 @@ public class ChooseServlet extends HttpServlet {
             }else{
                 request.setAttribute("NotJSFwayCool", "checked");
             }
-            System.out.println("choice JSF way Cool= " + choice);
+            System.out.println("choice JSF way Cool= " + choiceJSPCool);
         }
         else
             System.out.println("No choice made");
@@ -51,7 +51,7 @@ public class ChooseServlet extends HttpServlet {
             if(choiceMoon.equals("1")){
                 request.setAttribute("moonCheese", "checked");
             }else{
-                request.setAttribute("NotJSFwayCool", "checked");
+                request.setAttribute("NoMoonCheese", "checked");
             }
             System.out.println("choice moon made of cheese= " + choiceMoon);
         }

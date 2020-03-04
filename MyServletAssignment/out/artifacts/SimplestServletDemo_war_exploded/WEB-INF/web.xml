@@ -31,6 +31,14 @@
         <servlet-name>JSPIntroServlet</servlet-name>
         <servlet-class>mum.cs472.jspdemo.JSPIntroServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Quiz Servlet 2</servlet-name>
+        <servlet-class>mum.cs472.Quiz.HintServlet</servlet-class>
+    </servlet>
+    <servlet>
+    <servlet-name>Quiz Servlet 22</servlet-name>
+    <servlet-class>mum.cs472.Quiz.QuizServlet2</servlet-class>
+</servlet>
     <servlet-mapping>
         <servlet-name>SimplestServlet</servlet-name>
         <url-pattern>/SimplestServlet</url-pattern>
@@ -58,5 +66,13 @@
     <servlet-mapping>
         <servlet-name>JSPIntroServlet</servlet-name>
         <url-pattern>/JSPIntroServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Quiz Servlet 2</servlet-name>
+        <url-pattern>/QuizServlet2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Quiz Servlet 22</servlet-name>
+        <url-pattern>/QuizServlet22</url-pattern>
     </servlet-mapping>
 </web-app>

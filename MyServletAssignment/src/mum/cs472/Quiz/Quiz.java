@@ -24,7 +24,7 @@ public class Quiz {
     }
 
     public void IncrementScore(){
-        score++;
+        score+=5;
     }
     public boolean checkAnswer(int answer) {
         if (answer == answers[score]) {

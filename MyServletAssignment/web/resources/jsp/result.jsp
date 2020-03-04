@@ -1,19 +1,24 @@
+<%@page contentType="text/html" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1" %>
-<%@ page contentType="text/html; charset=ISO-8859-1" language="java" %>
-    
 <html>
 <head>
-<title>Insert title here</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Result, your age is <span>${age}</span></title>
+	<style>
+		div {
+			border: solid 2px blue;
+			width: 450px;
+			padding: 5px;
+			margin-left: 20px;
+		}
+		span {
+			color: red;
+			font-weight: bold;
+		}
+	</style>
 </head>
-	<body>
-			<fieldset>
-			    <legend>The Number Quiz</legend>
-			    <div class="input_line">
-			        <h3>Your Current Score is ${sessionScope.quiz.score} </h3>
-			        <h3>You Have Completed The quiz with score  ${sessionScope.quiz.score} out of 5 </h3>
-			    </div>
-			 </fieldset>
+<body>
+<h2>Your current grade is <span>${grade}</span></h2>
+<p>You have completed the number quiz, with a score of ${score} out of ${questions}.</p>
 </body>
 </html>
