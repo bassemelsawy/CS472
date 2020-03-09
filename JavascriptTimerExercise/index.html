@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Servlet Quiz</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <dl>
+        <dt> What is the difference between the following 2 statements?
+            <pre>
+                setTimeout(booyah, 2000);
+                setTimeout(booyah(), 2000);
+            </pre>
+        </dt>
+        <dd>setTimeout(booyah, 2000) calls booyah after a delay of 2 seconds
+            whereas setTimeout(booyah(), 2000) calls the function booyah immediately.
+        </dd>
+        <dt>What do the following 2 alerts display (answer without running the code)?
+            <pre>
+                var myfunc = function(a, x) {
+                 return a * x;
+                };
+                var x = myfunc(2, 3);
+                var y = myfunc;
+                alert(x);
+                alert(y(2,3)); 
+            </pre>
+        </dt>
+        <dd>
+            The function shows two alert boxes with value 6 in each one.
+        </dd>
+        <dt> Write functions booyah1 and booyah2 so that in both cases below, an alert box comes up after 2 seconds that
+                says “BOOYAH!”
+                </dt><dd>
+            <pre>
+                function booyah1(){
+                    var msg = "BOOYAH";
+                    alert(msg);
+                }
+                    
+                function booyah2(){
+                    setTimeout(booyah1, 2000);        
+                }
+            </pre>
+        </dd>
+        <dt>What is "Unobtrusive Javascript"? What is the practical application of Unobtrusive Javascript (and the reasons
+                for using it)?</dt>
+        <dd>Unobtrusive Javascript is a way of using JS code in the front end such that
+            the HTML structure and behavior are separated. Unobtrusive Javascript is used to:
+            <br>
+            1. Separation of functionality/behavior from a Web page's structure/content and presentation <br>
+            2. To avoid the problems of traditional JavaScript programming and create more modular codes
+           
+        </dd>
+        
+    </dl>
+</body>
+
+</html>
