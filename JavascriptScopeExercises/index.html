@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Javascript Scope Exercises</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <dl>
+        <dt>Determine what this Javascript code will print out (without running it):
+            <pre>
+            x = 1;
+            var a = 5;
+            var b = 10;
+            var c = function(a, b, c) {
+                var x = 10;
+                document.write(x);
+                document.write(a);
+                var f = function(a, b, c) {
+                        b = a;
+                        document.write(b);
+                        b = c;
+                        var x = 5;
+                    }
+                f(a,b,c);
+                document.write(b);
+            }
+            c(8,9,10);
+            document.write(b);
+            document.write(x);
+        </pre>
+        </dt>
+        <dd>
+            10 8 8 9 10 1
+        </dd>
+        <dt>What is the difference between a method and function?
+        </dt>
+        <dd>A method is a function that belongs to an object. A function is a piece of code that
+            is not associated with an object.
+        </dd>
+        <dt>What does 'this' refer to when used in a Java method?
+        </dt>
+        <dd>
+            In Java, this refers to the current instance object on which the method is executed.
+        </dd>
+        <dt>What does 'this' refer to when used in a JavaScript method?
+        </dt>
+        <dd>In JavaScript this always refers to the “owner” of the function we're executing, or rather, to the object
+            that a function is a method of.
+
+        </dd>
+        <dt> What does 'this' refer to when used in a JavaScript constructor function?
+        </dt>
+        <dd>
+            this in a JavaScript constructor refers to the object that was just created.
+        </dd>
+        <dt>
+            Assume object x is the prototype for object y in Javascript. Object x has a method f( ) containing keyword
+            'this'.
+            When f is called by x.f(), what does 'this' refer to?
+        </dt>
+        <dd>
+            It refers to the object x
+        </dd>
+        <dt>What is a free variable in JavaScript?
+        </dt>
+        <dd>
+            Free variable is a variable referred to by a function that is
+            not one of its parameters or local variables.
+        </dd>
+        <dt>
+            Create an object that has properties with name = "fred" and major="music" and a property that is a function
+            that takes 2 numbers and returns the smallest of the two, or the square of the two if they are equal.
+        </dt>
+        <dd>
+            <pre>
+               var obj = {
+                   name: "fred",
+                   major: "music",
+                   myFunc: function(x,y){
+                        return x>y?y:(x&lt;y?x:x*y)
+                   }
+               }
+           </pre>
+        </dd>
+        <dt>Write Javascript code for creating three Employee objects using the "new" keyword and a constructor
+            function.
+            Employee objects have the following fields: name, salary, position.
+
+        </dt>
+        <dd>
+            <pre>
+                function Employee(name, salary, position) {
+                    this.name = name;
+                    this.salary = salary;
+                    this.position = position;
+                }
+
+                var john = new Employee("John", 10000, "Manager");
+                var eric = new Employee("eric", 10500, "Staff");
+                var rock = new Employee("Rock", 50000, "WWE Champion");
+            </pre>
+        </dd>
+        <dt>Write a Javascript function that takes any number of input arguments and returns the product of the
+            arguments.
+        </dt>
+        <dd>
+            <code>
+                function product(a,b, ...more) {
+                    var total = a * b;
+                    if(more.length > 0) {
+                        for(var i=0; i&lt;more.length; i++){
+                            total *=more[i];
+                        }
+                    }
+                    console.log(total);
+                }
+            </code>
+        </dd>
+        <dt>Write an arrow function that returns the maximum of its three input arguments.</dt>
+        <dd>
+            <code>
+            <pre>
+            var max = (num1, num2, num3) => Math.max(num1, num2, num3)
+            var output = max(1,2,3);
+            </pre>
+            </code>
+        </dd>
+    </dl>
+</body>
+
+</html>
