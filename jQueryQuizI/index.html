@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JQuery Quiz I</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <ol>
+        <li>
+            Answer:<Br>
+            jQuery functions are actions that can be used
+            on a jQuery object. When the jQuery function is invoked with a
+            CSS selector, it will return a jQuery Object
+            wrapping all the elements that match the selector.
+            The jQuery object has properties like length and methods
+            on it like ready(), click() etc.
+            The jQuery object just wraps the DOM elements to make
+            interactivity and DOM manipulation easier.
+        </li>
+        <br>
+        <li>
+            Answer:
+            <pre>
+            $(document).ready(function(){       
+                $("div").find("h1").css("color","red");            
+            });
+            </pre>
+        </li>
+        <li>
+            Answer:
+            <pre>
+            $(document).ready(function(){   
+                $("p").append("YES!");
+
+            });    
+            </pre>
+        </li>
+
+    </ol>
+</body>
+
+</html>
